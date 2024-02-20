@@ -1,0 +1,15 @@
+body{
+    color: var(--md-sys-color-on-surface);
+    background-color: var(--md-sys-color-surface-container);
+    font-family: poppins; 
+    min-width: 1080px;
+}
+.card-hoverable{
+    color: var(--md-sys-color-on-background);
+    background-color:var(--md-sys-color-background);
+}
+.card-hoverable:hover{
+    background-color:var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-primary);
+    transition: 0.3s ease-in-out;
+}
